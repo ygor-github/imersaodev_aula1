@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+  height: 100vh;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  color: white;
+  position: relative;
+}
+
+/* Logo Styles */
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  max-width: 150px;
+  width: auto;
+}
+
+/* Container with the background image */
+.container {
+  background: url('https://img.freepik.com/vetores-gratis/ilustracao-de-personagens-trocando-moeda_53876-37251.jpg?t=st=1743439582~exp=1743443182~hmac=2248180cc45e21a683b81798ca557838dcd5d8a0dfbc8e61df9ee76498b49fa9&w=826') no-repeat center center/cover;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content div for text and button */
+.content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem, auto;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+  align-self: center;
+  background-color: #ff1b7b;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  width: 50%;
+}
+
+button:hover {
+  background-color: #1ABC9C;
+}
+
+input {
+  align-self: center;
+  width: 80%;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 10px;
+}
