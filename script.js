@@ -26,5 +26,5 @@ function pickAmount() {
 function result_convert() {
   coinAmount = document.getElementById('coinAmount').value;
   let result = coinValue * coinAmount;
-  content.innerHTML = `<h3>Resultado</h3><p>Os ${coinAmount} ${coinName} têm um valor de R$ ${result.toFixed(2)}.</p><button onclick="location.reload()">Reiniciar</button>`;
+  content.innerHTML = `<h3>Resultado</h3><p>Os ${coinAmount} ${coinName} têm um valor de R$ ${result.toFixed(2)}</p><button onclick="location.reload()">Reiniciar</button>`;
 }
