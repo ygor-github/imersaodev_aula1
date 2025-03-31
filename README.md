@@ -11,7 +11,10 @@ This project is a simple currency converter built with HTML, CSS, and JavaScript
 - **Restart Option**: Allows users to restart the process.
 
 ## Project Structure
-imersaodev_aula1/ ├── index.html # Main HTML file ├── style.css # Styling for the project ├── script.js # JavaScript logic for the currency converter
+imersaodev_aula1/ 
+├── index.html # Main HTML file 
+├── style.css # Styling for the project 
+├── script.js # JavaScript logic for the currency converter
 
 ## How to Use
 
